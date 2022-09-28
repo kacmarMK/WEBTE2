@@ -1,0 +1,94 @@
+
+html { 
+    font-family: sans-serif, Verdana, Arial, Times, Georgia;
+    font-size: 18px;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+#mapid { 
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 900px;
+}
+
+#divko, #lctn, #sttstcs {
+    background-color: white;
+    padding: 30px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+}
+
+table{
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    z-index: 1;
+    background-color: rgb(52, 116, 81);
+    width: 90%;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+th {
+    color:  white;
+    background-color: black;
+    outline: black;
+    text-align: center;
+}
+td {
+    text-align: center;
+    outline: thin solid black;
+}
+
+p, h2, h4, h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.rounded {
+    border-top: 5px solid rgb(66, 66, 66);
+    border-radius: 5px;
+  }
+
+/* unvisited link */
+.cntry:link {
+    color: skyblue;
+}
+  
+/* visited link */
+.cntry:visited {
+    color: rgb(31, 31, 94);
+}
+  
+/* mouse over link */
+.cntry:hover {
+    color: white;
+}
+  
+/* selected link */
+.cntry:active {
+    color: black;
+}
+
+.btn {
+    font-weight: bolder;
+}

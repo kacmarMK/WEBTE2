@@ -1,0 +1,113 @@
+.disabled {
+    pointer-events: none;
+}
+html { 
+    font-family: sans-serif, Verdana, Arial, Times, Georgia;
+    font-size: 18px;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+h1, h2, h3, h4, p {
+    color: black;
+}
+
+table {
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    z-index: 1;
+    background-color: gray;
+    width: 90%;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: bold;
+}
+table caption {
+    background-color: gold;
+    width: 300px;
+    padding: 10px;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    color: black;
+    text-align: center;
+}
+
+
+th {
+    color:  white;
+    background-color: black;
+    outline: black;
+}
+td {
+    text-align: center;
+    outline: thin solid black;
+}
+
+.item {
+    cursor: pointer;
+} 
+
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+
+.chart-container {
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1000px;
+}
+
+button {
+    width: 100%;
+}
+
+.cstm {
+    font-family: "Arial Bold", Gadget, sans-serif;
+     font-style: normal;
+     font-size: 16px ! important;
+     font-weight: bold;
+     color: black;
+}
+
+a {
+    background-color: white;
+    border-radius: 20%;
+    border: 3px solid black;
+    width: 300px;
+    padding: 20px 40px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    color: yellow;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: black;
+    color: yellow;
+}
+a:hover, a:active {
+    text-decoration: underline;
+    background-color: rgb(228, 228, 228);
+    color: goldenrod;
+}

@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Ubuntu-M;
+    src: url(ubuntu-font-family-0.80/Ubuntu-M.ttf);
+}
+
+html { 
+    font-family: Ubuntu-M, Verdana, Arial, Times, Georgia;
+    font-size: 15px;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+table {
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    z-index: 1;
+    padding: 30px;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr {
+    outline: medium solid;
+}
+
+tr:nth-child(even) {background-color: rgb(172, 172, 172);}
+tr:nth-child(odd) {background-color: rgb(255, 255, 255); }
+
+
+th {
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.table_name {
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40% 40% 0 0;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+#athleteAddition {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0 0 30% 30%;
+}
+
+form {
+    background-color: white;
+    width: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10%;
+}
+
+.back {
+    display: block;
+    width: 100px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+    float: left;
+}
+
+.hide {
+    display: none;
+}
+select {
+    padding: 5px;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    margin: 8px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#placementForm {
+    margin: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.placements {
+    margin: 20px;
+    float: left;
+    width: 200px;
+}

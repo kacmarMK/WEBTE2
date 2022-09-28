@@ -1,0 +1,193 @@
+html { 
+    font-family: 'Oswald', sans-serif, Verdana, Arial, Times, Georgia;
+    font-size: 16px;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+h1 {
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.8;
+    border: 8px solid black;
+    display: block;
+}
+
+
+#log_out{
+    border: 5px solid black;
+}
+
+.pos {
+    margin-top: 30px;
+}
+
+#log_out:link, #log_out:visited {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.8;
+}
+  
+#log_out:hover,  #log_out:active {
+    text-decoration: underline;
+    background-color: rgb(1, 63, 1);
+}
+
+#chartContainer {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#logins {
+    font-weight: bold;
+    font-size: medium;
+    width: 200px;
+    padding: 20px;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: block;
+    border: outset 5px black;
+    background-color: gray;
+}
+#logins:hover {
+    background-color: rgb(197, 197, 197);
+    cursor: pointer;
+}
+
+
+table {
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    z-index: 1;
+    padding: 10px;
+    background-color: gray;
+    width: 40%;
+    margin-bottom: 30px;
+}
+table caption {
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr {
+    outline: medium solid;
+}
+
+tr:nth-child(even) {background-color: darkgreen}
+tr:nth-child(odd) {background-color: sienna }
+
+
+th {
+    background-color: black;
+    color: white;
+}
+
+form {
+    background-color: white;
+    width: 500px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 10%;
+    opacity: 0.9;
+}
+
+form label {
+    background-color: black;
+    border: 2px solid black;
+    padding: 6px;
+    color: green;
+    width: 200px;
+    margin: 20px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    background-color: white;
+    color: black;
+    padding: 7px;
+    font-weight: bold;
+    font-size: small;
+    border: grey 2px solid;
+    width: 200px;
+    
+}
+
+button[type=submit] {
+    border: 5px solid black;
+    margin-top: 20px;
+    background-color: green;
+    padding: 14px 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+#changePSW {
+    float: right;
+    border: 5px solid rgb(59, 131, 59);
+    margin-top: 20px;
+    background-color: black;
+    padding: 14px 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    color: darkgreen;
+}
+
+#changePSW:hover {
+    background-color: rgb(49, 49, 49);
+    color: yellowgreen;
+}
+
+#back {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.9;
+    border: outset 5px black;
+    font-weight: bold;
+}
+#back:hover {
+    border: solid 5px rgb(20, 20, 20);
+    background-color: rgb(0, 85, 0);
+}

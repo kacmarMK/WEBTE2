@@ -1,0 +1,19 @@
+html { 
+    font-family: sans-serif, Verdana, Arial, Times, Georgia;
+    font-size: 18px;
+}
+
+body {
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 60px;
+    border-radius: 25px;
+}
+
